@@ -1,0 +1,14 @@
+path: ../datasets/roboflow
+
+train: E:\Kent Files Disc E\YOLO V8 FILES\Tests\MoreAppdev\train\images
+val: E:\Kent Files Disc E\YOLO V8 FILES\Tests\MoreAppdev\valid\images
+test: E:\Kent Files Disc E\YOLO V8 FILES\Tests\MoreAppdev\test\images
+names: 
+  0: Abnormal_WBC
+  1: BASOPHIL
+  2: EOSINOPHIL
+  3: LYMPHOCYTE
+  4: MONOCYTE
+  5: NEUTROPHIL
+  6: Platelets
+  7: RBC
