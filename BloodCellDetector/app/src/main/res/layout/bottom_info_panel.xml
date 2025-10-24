@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/infoPanel"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="#2C003E"
+    android:padding="12dp"
+    android:fillViewport="true">
+
+
+    <LinearLayout
+        android:id="@+id/infoContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/info_short"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cell Short Description"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/info_properties"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Important properties (size, nucleus, granules)"
+            android:textColor="#FFFFFF"
+            android:paddingTop="6dp"/>
+
+        <TextView
+            android:id="@+id/info_distinguish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to distinguish from others"
+            android:textColor="#FFFFFF"
+            android:paddingTop="6dp"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

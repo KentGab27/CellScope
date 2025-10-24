@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2b1630">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="24dp"/>
+
+    <Button
+        android:id="@+id/btnLogo"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:text="LOGO"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:background="@drawable/rounded_purple"/>
+
+    <View android:layout_height="24dp" android:layout_width="match_parent"/>
+
+    <Button
+        android:id="@+id/btnLive"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:text="Live Camera"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:background="@drawable/rounded_purple"/>
+
+    <View android:layout_height="16dp" android:layout_width="match_parent"/>
+
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:text="Upload"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:background="@drawable/rounded_purple"/>
+
+</LinearLayout>
+
+
+
+
